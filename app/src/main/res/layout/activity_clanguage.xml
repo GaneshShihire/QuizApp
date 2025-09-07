@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Question 1 -->
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What toolset allows Android developers to use C/C++ languages in their apps?"
+            android:textSize="18sp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answers1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/answer1_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="a) JDK"/>
+            <RadioButton android:id="@+id/answer1_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="b) NDK"/>
+            <RadioButton android:id="@+id/answer1_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="c) SDK"/>
+            <RadioButton android:id="@+id/answer1_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="d) ADK"/>
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When creating a new Android project in Android Studio, which option should you select to include C++ support?"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answers2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/answer2_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="a) Include Kotlin support"/>
+            <RadioButton android:id="@+id/answer2_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="b) Include Java support"/>
+            <RadioButton android:id="@+id/answer2_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="c) Include C++ support"/>
+            <RadioButton android:id="@+id/answer2_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="d) Include XML support"/>
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which file in an Android Studio project describes how to build native C/C++ code into a shared library?"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answers3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/answer3_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="a) build.gradle"/>
+            <RadioButton android:id="@+id/answer3_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="b) AndroidManifest.xml"/>
+            <RadioButton android:id="@+id/answer3_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="c) CMakeLists.txt"/>
+            <RadioButton android:id="@+id/answer3_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="d) settings.gradle"/>
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What interface allows Java code to call and be called by native applications and libraries written in C/C++?"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answers4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/answer4_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="a) JNA"/>
+            <RadioButton android:id="@+id/answer4_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="b) JNI"/>
+            <RadioButton android:id="@+id/answer4_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="c) JMI"/>
+            <RadioButton android:id="@+id/answer4_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="d) JRI"/>
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How can you add a new C/C++ file to an existing Android project in Android Studio?"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answers5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/answer5_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="a) File > New > Java Class"/>
+            <RadioButton android:id="@+id/answer5_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="b) File > New > Module"/>
+            <RadioButton android:id="@+id/answer5_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="c) Right-click on `cpp` directory > New > C/C++ Source File"/>
+            <RadioButton android:id="@+id/answer5_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="d) Right-click on `res` directory > New > C/C++ Source File"/>
+        </RadioGroup>
+
+        <!-- Question 6 -->
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What build system is recommended for most projects when building native code in Android Studio?"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answers6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/answer6_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="a) ndk-build"/>
+            <RadioButton android:id="@+id/answer6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="b) make"/>
+            <RadioButton android:id="@+id/answer6_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="c) Ant"/>
+            <RadioButton android:id="@+id/answer6_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="d) CMake"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp"
+            android:onClick="result"/>
+    </LinearLayout>
+</ScrollView>

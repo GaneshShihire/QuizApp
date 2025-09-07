@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quizzo</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="bhandares71_gmail_com">bhandares71@gmail.com</string>
+    <string name="facebook_page">Follow on Facebook</string>
+    <string name="communication">Communication</string>
+    <string name="nav_rate">Rate or Feedback</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_terms_conditions">Terms and Conditions</string>
+    <string name="website">Visit Website</string>
+    <string name="more">More</string>
+    <string name="a_compilation_error_n_n_include_lt_iostream_gt_nusing_namespace_std_n_nint_main_n_int_x_5_n_int_ptr_x_n_cout_lt_lt_ptr_lt_lt_endl_n_return_0_n"><![CDATA[a) Compilation error\n\n#include <iostream>\nusing namespace std;\n\nint main() {\n int x = 5;\n int* ptr = x;\n cout << *ptr << endl;\n return 0;\n}]]></string>
+
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="104dp"
+        android:layout_centerHorizontal="true"
+        android:layout_x="51dp"
+        android:layout_y="241dp"
+        android:onClick="CQ"
+        android:src="@drawable/clanguage" />
+
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="45dp"
+        android:layout_height="59dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_x="88dp"
+        android:layout_y="364dp"
+        android:fontFamily="@font/li"
+        android:gravity=""
+        android:text="C"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageview3"
+        android:layout_width="93dp"
+        android:layout_height="101dp"
+        android:layout_x="274dp"
+        android:layout_y="246dp"
+        android:onClick="CQues"
+        android:src="@drawable/cplus" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="300dp"
+        android:layout_y="362dp"
+        android:fontFamily="@font/li"
+        android:text="C++"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_x="13dp"
+        android:layout_y="61dp"
+        android:text="Start a new journey"
+        app:layout_constraintTop_toBottomOf="@id/textview"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp" />
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="294dp"
+        android:layout_height="143dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_x="135dp"
+        android:layout_y="4dp"
+        android:src="@drawable/coding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textview"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="128dp"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:layout_x="245dp"
+        android:layout_y="474dp"
+        android:onClick="C"
+        app:srcCompat="@drawable/csharp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="123dp"
+        android:layout_height="99dp"
+        android:layout_weight="1"
+        android:layout_x="48dp"
+        android:layout_y="465dp"
+        android:onClick="HTMLQ"
+        app:srcCompat="@drawable/html" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_x="16dp"
+        android:layout_y="11dp"
+        android:fontFamily="@font/li"
+        android:text="Coding"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="74dp"
+        android:layout_height="45dp"
+        android:layout_x="86dp"
+        android:layout_y="576dp"
+        android:text="HTML"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="135dp"
+        android:layout_height="47dp"
+        android:layout_x="277dp"
+        android:layout_y="579dp"
+        android:text="      C#"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        android:layout_x="40dp"
+        android:layout_y="685dp"
+        android:onClick="Java"
+        app:srcCompat="@drawable/java" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="87dp"
+        android:layout_y="801dp"
+        android:text="JAVA"
+        android:textSize="20dp" />
+
+
+</AbsoluteLayout>
+
+
+
+
+
